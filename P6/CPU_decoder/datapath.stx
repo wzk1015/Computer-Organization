@@ -1,0 +1,95 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to D:/Computer_Organization/P5/CPU_decoder/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.16 secs
+ 
+--> Parameter xsthdpdir set to D:/Computer_Organization/P5/CPU_decoder/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.17 secs
+ 
+--> Reading design: datapath.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "D:\Computer_Organization\P5\CPU_decoder\decoder.v" into library work
+Parsing verilog file "define.v" included at line 21.
+Parsing module <decoder>.
+WARNING:HDLCompiler:31 - "D:\Computer_Organization\P5\CPU_decoder\decoder.v" Line 44: <jr> is already declared.
+WARNING:HDLCompiler:770 - "D:\Computer_Organization\P5\CPU_decoder\decoder.v" Line 44: Second declaration of jr ignored
+INFO:HDLCompiler:1408 - "D:\Computer_Organization\P5\CPU_decoder\decoder.v" Line 44. jr is declared here
+Analyzing Verilog file "D:\Computer_Organization\P5\CPU_decoder\reg_pipeline.v" into library work
+Parsing module <regD>.
+Parsing module <regE>.
+Parsing module <regM>.
+Parsing module <regW>.
+Analyzing Verilog file "D:\Computer_Organization\P5\CPU_decoder\MUX_forward.v" into library work
+Parsing verilog file "define.v" included at line 21.
+Parsing module <MFCMP1D>.
+Parsing module <MFCMP2D>.
+Parsing module <MFALUBE>.
+Parsing module <MFALUAE>.
+Parsing module <MFWDM>.
+Analyzing Verilog file "D:\Computer_Organization\P5\CPU_decoder\MUX.v" into library work
+Parsing verilog file "define.v" included at line 21.
+Parsing module <MUX_PC>.
+Parsing module <MUX_ALU>.
+Parsing module <MUX_WD>.
+Analyzing Verilog file "D:\Computer_Organization\P5\CPU_decoder\M.v" into library work
+Parsing module <DM>.
+Analyzing Verilog file "D:\Computer_Organization\P5\CPU_decoder\F.v" into library work
+Parsing verilog file "define.v" included at line 22.
+Parsing module <PC>.
+Parsing module <IM>.
+Parsing module <ADD4>.
+Analyzing Verilog file "D:\Computer_Organization\P5\CPU_decoder\E.v" into library work
+Parsing verilog file "define.v" included at line 22.
+Parsing module <ALU>.
+Analyzing Verilog file "D:\Computer_Organization\P5\CPU_decoder\D.v" into library work
+Parsing verilog file "define.v" included at line 22.
+Parsing module <RF>.
+Parsing module <EXT>.
+Parsing module <CMP>.
+Parsing module <NPC>.
+Analyzing Verilog file "D:\Computer_Organization\P5\CPU_decoder\datapath.v" into library work
+Parsing module <datapath>.
+
+
+Total REAL time to Xst completion: 9.00 secs
+Total CPU time to Xst completion: 8.88 secs
+ 
+--> 
+
+Total memory usage is 4537420 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    2 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

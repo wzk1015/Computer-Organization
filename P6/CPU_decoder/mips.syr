@@ -1,0 +1,336 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.17 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.17 secs
+ 
+--> Reading design: mips.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "mips.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "mips"
+Output Format                      : NGC
+Target Device                      : xa7a100t-2I-csg324
+
+---- Source Options
+Top Module Name                    : mips
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "D:\Computer_Organization\P6\CPU_decoder\decoder.v" into library work
+Parsing verilog file "define.v" included at line 21.
+Parsing module <decoder>.
+Analyzing Verilog file "D:\Computer_Organization\P6\CPU_decoder\STOP_controller.v" into library work
+Parsing verilog file "define.v" included at line 21.
+Parsing module <STOP_control>.
+Parsing module <STOP>.
+Analyzing Verilog file "D:\Computer_Organization\P6\CPU_decoder\reg_pipeline.v" into library work
+Parsing module <regD>.
+Parsing module <regE>.
+Parsing module <regM>.
+Parsing module <regW>.
+Analyzing Verilog file "D:\Computer_Organization\P6\CPU_decoder\MUX_forward.v" into library work
+Parsing verilog file "define.v" included at line 21.
+Parsing module <MFCMP1D>.
+Parsing module <MFCMP2D>.
+Parsing module <MFALUAE>.
+Parsing module <MFALUBE>.
+Parsing module <MFWDM>.
+Analyzing Verilog file "D:\Computer_Organization\P6\CPU_decoder\MUX.v" into library work
+Parsing verilog file "define.v" included at line 21.
+Parsing module <MUX_PC>.
+Parsing module <MUX_ALUA>.
+Parsing module <MUX_ALUB>.
+Parsing module <MUX_WD>.
+Analyzing Verilog file "D:\Computer_Organization\P6\CPU_decoder\M.v" into library work
+Parsing module <DM>.
+Analyzing Verilog file "D:\Computer_Organization\P6\CPU_decoder\FORWARD_controller.v" into library work
+Parsing verilog file "define.v" included at line 21.
+Parsing module <FORWARD_controller>.
+Analyzing Verilog file "D:\Computer_Organization\P6\CPU_decoder\F.v" into library work
+Parsing verilog file "define.v" included at line 22.
+Parsing module <PC>.
+Parsing module <IM>.
+Parsing module <ADD4>.
+Analyzing Verilog file "D:\Computer_Organization\P6\CPU_decoder\E.v" into library work
+Parsing verilog file "define.v" included at line 22.
+Parsing module <MD>.
+Parsing module <ALU>.
+Analyzing Verilog file "D:\Computer_Organization\P6\CPU_decoder\D.v" into library work
+Parsing verilog file "define.v" included at line 22.
+Parsing module <RF>.
+Parsing module <EXT>.
+Parsing module <CMP>.
+Parsing module <NPC>.
+Analyzing Verilog file "D:\Computer_Organization\P6\CPU_decoder\AT_controller.v" into library work
+Parsing verilog file "define.v" included at line 21.
+Parsing module <AT_E>.
+Parsing module <AT_M>.
+Parsing module <AT_W>.
+Parsing module <ATtotal>.
+Analyzing Verilog file "D:\Computer_Organization\P6\CPU_decoder\datapath.v" into library work
+Parsing module <datapath>.
+Analyzing Verilog file "D:\Computer_Organization\P6\CPU_decoder\control.v" into library work
+Parsing module <control>.
+Analyzing Verilog file "D:\Computer_Organization\P6\CPU_decoder\mips.v" into library work
+Parsing module <mips>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <mips>.
+
+Elaborating module <datapath>.
+WARNING:HDLCompiler:1016 - "D:\Computer_Organization\P6\CPU_decoder\MUX.v" Line 31: Port RegWrite is not connected to this instance
+
+Elaborating module <MUX_PC>.
+
+Elaborating module <decoder>.
+WARNING:HDLCompiler:413 - "D:\Computer_Organization\P6\CPU_decoder\decoder.v" Line 67: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "D:\Computer_Organization\P6\CPU_decoder\decoder.v" Line 68: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "D:\Computer_Organization\P6\CPU_decoder\decoder.v" Line 69: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "D:\Computer_Organization\P6\CPU_decoder\decoder.v" Line 70: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "D:\Computer_Organization\P6\CPU_decoder\decoder.v" Line 71: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "D:\Computer_Organization\P6\CPU_decoder\decoder.v" Line 72: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "D:\Computer_Organization\P6\CPU_decoder\decoder.v" Line 73: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "D:\Computer_Organization\P6\CPU_decoder\decoder.v" Line 74: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "D:\Computer_Organization\P6\CPU_decoder\decoder.v" Line 75: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "D:\Computer_Organization\P6\CPU_decoder\decoder.v" Line 76: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "D:\Computer_Organization\P6\CPU_decoder\decoder.v" Line 77: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "D:\Computer_Organization\P6\CPU_decoder\decoder.v" Line 78: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "D:\Computer_Organization\P6\CPU_decoder\decoder.v" Line 79: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "D:\Computer_Organization\P6\CPU_decoder\decoder.v" Line 82: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "D:\Computer_Organization\P6\CPU_decoder\decoder.v" Line 83: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "D:\Computer_Organization\P6\CPU_decoder\decoder.v" Line 84: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "D:\Computer_Organization\P6\CPU_decoder\decoder.v" Line 85: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "D:\Computer_Organization\P6\CPU_decoder\decoder.v" Line 86: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "D:\Computer_Organization\P6\CPU_decoder\decoder.v" Line 87: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "D:\Computer_Organization\P6\CPU_decoder\decoder.v" Line 88: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "D:\Computer_Organization\P6\CPU_decoder\decoder.v" Line 89: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "D:\Computer_Organization\P6\CPU_decoder\decoder.v" Line 92: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "D:\Computer_Organization\P6\CPU_decoder\decoder.v" Line 93: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "D:\Computer_Organization\P6\CPU_decoder\decoder.v" Line 94: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "D:\Computer_Organization\P6\CPU_decoder\decoder.v" Line 95: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "D:\Computer_Organization\P6\CPU_decoder\decoder.v" Line 96: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "D:\Computer_Organization\P6\CPU_decoder\decoder.v" Line 99: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "D:\Computer_Organization\P6\CPU_decoder\decoder.v" Line 100: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "D:\Computer_Organization\P6\CPU_decoder\decoder.v" Line 101: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "D:\Computer_Organization\P6\CPU_decoder\decoder.v" Line 104: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "D:\Computer_Organization\P6\CPU_decoder\decoder.v" Line 105: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "D:\Computer_Organization\P6\CPU_decoder\decoder.v" Line 106: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "D:\Computer_Organization\P6\CPU_decoder\decoder.v" Line 107: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "D:\Computer_Organization\P6\CPU_decoder\decoder.v" Line 108: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "D:\Computer_Organization\P6\CPU_decoder\decoder.v" Line 109: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "D:\Computer_Organization\P6\CPU_decoder\decoder.v" Line 112: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "D:\Computer_Organization\P6\CPU_decoder\decoder.v" Line 113: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "D:\Computer_Organization\P6\CPU_decoder\decoder.v" Line 114: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "D:\Computer_Organization\P6\CPU_decoder\decoder.v" Line 115: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "D:\Computer_Organization\P6\CPU_decoder\decoder.v" Line 118: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "D:\Computer_Organization\P6\CPU_decoder\decoder.v" Line 119: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "D:\Computer_Organization\P6\CPU_decoder\decoder.v" Line 120: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "D:\Computer_Organization\P6\CPU_decoder\decoder.v" Line 123: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "D:\Computer_Organization\P6\CPU_decoder\decoder.v" Line 124: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "D:\Computer_Organization\P6\CPU_decoder\decoder.v" Line 125: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "D:\Computer_Organization\P6\CPU_decoder\decoder.v" Line 126: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "D:\Computer_Organization\P6\CPU_decoder\decoder.v" Line 127: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "D:\Computer_Organization\P6\CPU_decoder\decoder.v" Line 128: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "D:\Computer_Organization\P6\CPU_decoder\decoder.v" Line 129: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "D:\Computer_Organization\P6\CPU_decoder\decoder.v" Line 130: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "D:\Computer_Organization\P6\CPU_decoder\decoder.v" Line 144: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "D:\Computer_Organization\P6\CPU_decoder\decoder.v" Line 145: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "D:\Computer_Organization\P6\CPU_decoder\decoder.v" Line 146: Result of 32-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "D:\Computer_Organization\P6\CPU_decoder\decoder.v" Line 158: Result of 32-bit expression is truncated to fit in 2-bit target.
+WARNING:HDLCompiler:413 - "D:\Computer_Organization\P6\CPU_decoder\decoder.v" Line 161: Result of 32-bit expression is truncated to fit in 2-bit target.
+WARNING:HDLCompiler:413 - "D:\Computer_Organization\P6\CPU_decoder\decoder.v" Line 165: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "D:\Computer_Organization\P6\CPU_decoder\decoder.v" Line 172: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "D:\Computer_Organization\P6\CPU_decoder\decoder.v" Line 173: Result of 32-bit expression is truncated to fit in 3-bit target.
+WARNING:HDLCompiler:413 - "D:\Computer_Organization\P6\CPU_decoder\decoder.v" Line 195: Result of 32-bit expression is truncated to fit in 2-bit target.
+WARNING:HDLCompiler:413 - "D:\Computer_Organization\P6\CPU_decoder\decoder.v" Line 197: Result of 32-bit expression is truncated to fit in 3-bit target.
+WARNING:HDLCompiler:1127 - "D:\Computer_Organization\P6\CPU_decoder\decoder.v" Line 65: Assignment to jump ignored, since the identifier is never used
+
+Elaborating module <PC>.
+
+Elaborating module <ADD4>.
+
+Elaborating module <IM>.
+Reading initialization file \"code.txt\".
+WARNING:HDLCompiler:1670 - "D:\Computer_Organization\P6\CPU_decoder\F.v" Line 56: Signal <im> in initial block is partially initialized.
+WARNING:HDLCompiler:1016 - "D:\Computer_Organization\P6\CPU_decoder\reg_pipeline.v" Line 32: Port RegWrite is not connected to this instance
+
+Elaborating module <regD>.
+WARNING:HDLCompiler:1016 - "D:\Computer_Organization\P6\CPU_decoder\D.v" Line 107: Port RegWrite is not connected to this instance
+
+Elaborating module <NPC>.
+
+Elaborating module <RF>.
+WARNING:HDLCompiler:1127 - "D:\Computer_Organization\P6\CPU_decoder\D.v" Line 38: Assignment to PC ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "D:\Computer_Organization\P6\CPU_decoder\D.v" Line 39: Assignment to V1 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "D:\Computer_Organization\P6\CPU_decoder\D.v" Line 40: Assignment to V2 ignored, since the identifier is never used
+"D:\Computer_Organization\P6\CPU_decoder\D.v" Line 56. $display @0: $0 <= 0
+WARNING:HDLCompiler:1499 - "D:\Computer_Organization\P6\CPU_decoder\D.v" Line 23: Empty module <RF> remains a black box.
+WARNING:HDLCompiler:1016 - "D:\Computer_Organization\P6\CPU_decoder\D.v" Line 69: Port RegWrite is not connected to this instance
+
+Elaborating module <EXT>.
+
+Elaborating module <MFCMP1D>.
+
+Elaborating module <MFCMP2D>.
+WARNING:HDLCompiler:1016 - "D:\Computer_Organization\P6\CPU_decoder\D.v" Line 86: Port RegWrite is not connected to this instance
+
+Elaborating module <CMP>.
+WARNING:HDLCompiler:413 - "D:\Computer_Organization\P6\CPU_decoder\D.v" Line 88: Result of 32-bit expression is truncated to fit in 1-bit target.
+
+Elaborating module <regE>.
+
+Elaborating module <MFALUAE>.
+
+Elaborating module <MFALUBE>.
+WARNING:HDLCompiler:1016 - "D:\Computer_Organization\P6\CPU_decoder\MUX.v" Line 49: Port RegWrite is not connected to this instance
+
+Elaborating module <MUX_ALUA>.
+WARNING:HDLCompiler:1016 - "D:\Computer_Organization\P6\CPU_decoder\MUX.v" Line 60: Port RegWrite is not connected to this instance
+
+Elaborating module <MUX_ALUB>.
+WARNING:HDLCompiler:1016 - "D:\Computer_Organization\P6\CPU_decoder\E.v" Line 122: Port RegWrite is not connected to this instance
+
+Elaborating module <ALU>.
+WARNING:HDLCompiler:1016 - "D:\Computer_Organization\P6\CPU_decoder\E.v" Line 39: Port RegWrite is not connected to this instance
+
+Elaborating module <MD>.
+
+Elaborating module <regM>.
+
+Elaborating module <MFWDM>.
+WARNING:HDLCompiler:1016 - "D:\Computer_Organization\P6\CPU_decoder\M.v" Line 31: Port RegWrite is not connected to this instance
+
+Elaborating module <DM>.
+WARNING:HDLCompiler:1127 - "D:\Computer_Organization\P6\CPU_decoder\M.v" Line 38: Assignment to PC ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "D:\Computer_Organization\P6\CPU_decoder\M.v" Line 39: Assignment to AD ignored, since the identifier is never used
+WARNING:HDLCompiler:413 - "D:\Computer_Organization\P6\CPU_decoder\M.v" Line 68: Result of 40-bit expression is truncated to fit in 32-bit target.
+"D:\Computer_Organization\P6\CPU_decoder\M.v" Line 127. $display @0: *0 <= 0
+WARNING:HDLCompiler:1016 - "D:\Computer_Organization\P6\CPU_decoder\reg_pipeline.v" Line 139: Port MemWrite is not connected to this instance
+
+Elaborating module <regW>.
+WARNING:HDLCompiler:1016 - "D:\Computer_Organization\P6\CPU_decoder\MUX.v" Line 74: Port RegWrite is not connected to this instance
+
+Elaborating module <MUX_WD>.
+WARNING:HDLCompiler:634 - "D:\Computer_Organization\P6\CPU_decoder\datapath.v" Line 38: Net <RFRD1[31]> does not have a driver.
+
+Elaborating module <control>.
+WARNING:HDLCompiler:1016 - "D:\Computer_Organization\P6\CPU_decoder\AT_controller.v" Line 135: Port RegWrite is not connected to this instance
+
+Elaborating module <ATtotal>.
+
+Elaborating module <AT_E>.
+
+Elaborating module <AT_M>.
+
+Elaborating module <AT_W>.
+WARNING:HDLCompiler:1127 - "D:\Computer_Organization\P6\CPU_decoder\AT_controller.v" Line 174: Assignment to A1_W ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "D:\Computer_Organization\P6\CPU_decoder\AT_controller.v" Line 175: Assignment to A2_W ignored, since the identifier is never used
+
+Elaborating module <FORWARD_controller>.
+WARNING:HDLCompiler:413 - "D:\Computer_Organization\P6\CPU_decoder\FORWARD_controller.v" Line 40: Result of 32-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "D:\Computer_Organization\P6\CPU_decoder\FORWARD_controller.v" Line 52: Result of 32-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "D:\Computer_Organization\P6\CPU_decoder\FORWARD_controller.v" Line 64: Result of 32-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "D:\Computer_Organization\P6\CPU_decoder\FORWARD_controller.v" Line 75: Result of 32-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "D:\Computer_Organization\P6\CPU_decoder\FORWARD_controller.v" Line 86: Result of 32-bit expression is truncated to fit in 4-bit target.
+
+Elaborating module <STOP_control>.
+
+Elaborating module <STOP>.
+WARNING:HDLCompiler:413 - "D:\Computer_Organization\P6\CPU_decoder\STOP_controller.v" Line 71: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "D:\Computer_Organization\P6\CPU_decoder\STOP_controller.v" Line 72: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:Xst:2972 - "D:\Computer_Organization\P6\CPU_decoder\datapath.v" line 92. All outputs of instance <RF_> of block <RF> are unconnected in block <datapath>. Underlying logic will be removed.
+WARNING:Xst:2972 - "D:\Computer_Organization\P6\CPU_decoder\datapath.v" line 223. All outputs of instance <MUX_WD_> of block <MUX_WD> are unconnected in block <datapath>. Underlying logic will be removed.
+WARNING:Xst:2972 - "D:\Computer_Organization\P6\CPU_decoder\mips.v" line 35. All outputs of instance <dp> of block <datapath> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "D:\Computer_Organization\P6\CPU_decoder\mips.v" line 51. All outputs of instance <ctrl> of block <control> are unconnected in block <mips>. Underlying logic will be removed.

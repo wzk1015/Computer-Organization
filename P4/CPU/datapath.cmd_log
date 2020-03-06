@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj CPU -o D:/Computer_Organization/P4/CPU/datapath.tfi -lib work D:/Computer_Organization/P4/CPU//datapath.v -module datapath -template D:/XilinxNEW/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

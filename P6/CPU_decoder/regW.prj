@@ -1,0 +1,2 @@
+verilog work "decoder.v"
+verilog work "reg_pipeline.v"

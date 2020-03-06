@@ -1,0 +1,5 @@
+verilog work "STOP_controller.v"
+verilog work "MAIN_controller.v"
+verilog work "FORWARD_controller.v"
+verilog work "AT_controller.v"
+verilog work "control.v"

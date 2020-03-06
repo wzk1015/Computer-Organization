@@ -1,0 +1,93 @@
+#»ù´¡²âÊÔ
+ori $a1,$0,0xaabb
+ori $a2,$0,0x0001
+lui $a3,0xccdd
+ori $a0,0xffff0000
+ori $k0,0x00003170
+addu $t1,$a1,$a2
+sw $t1,0($0)
+subu $t1,$a1,$a2
+sw $t1,4($0)
+and $t1,$a1,$a2
+sw $t1,8($0)
+or $t1,$a1,$a2
+sw $t1,12($0)
+xor $t1,$a1,$a3
+sw $t1,16($0)
+nor $t1,$a1,$a2
+sw $t1,20($0)
+add $t1,$a2,$a3
+sw $t1,24($0)
+sub $t1,$a1,$a2
+sw $t1,28($0)
+mult $a3,$a2
+sll $t1,$a3,5
+sw $t1,32($0)
+sltu $t1,$a3,$a2
+sw $t1,36($0)
+slt  $t1,$a3,$a2
+sw $t1,40($0)
+mfhi $s0
+mflo $s1
+sw $s0,44($0)
+sw $s1,48($0)
+multu $a3,$a2
+sllv $t1,$a3,$a2
+sw $t1,52($0)
+srl $t1,$a3,10
+sw $t1,56($0)
+srlv $t1,$a3,$a2
+sw $t1,60($0)
+mfhi $s2
+mflo $s3
+sw $s2,64($0)
+sw $s3,68($0)
+div $a3,$a1
+sra $t1,$a3,5
+sw $t1,72($0)
+srav $t1,$a3,$a2
+sw $t1,76($0)
+addi $t1,$a3,0xff
+sw $t1,80($0)
+slti $t1,$a3,1
+sw $t1,84($0)
+addiu $t1,$a3,0xff
+sw $t1,88($0)
+andi $t1,$a1,0xff
+sw $t1,92($0)
+mfhi $s4
+mflo $s5
+sw $s4,96($0)
+sw $s5,100($0)
+ori $t1,$a2,10
+sw $t1,104($0)
+xori $t1,$a1,0xaaaa
+sw $t1,108($0)
+sltiu $t1,$a3,5
+sw $t1,112($0)
+lui $t1,0xabcd
+sw $t1,116($0)
+beq $a1,$a1,fff
+sw $t1,112($0)
+lw $t1,116($0)
+fff:bne $a1,$a2,qqq
+lb $t1,114($0)
+sb $t1,121($0)
+qqq:sh $t1,122($0)
+sw $t1,124($0)
+sb $t1,120($0)
+lbu $t1,120($0)
+sw $t1,128($0)
+jal hhh
+mthi $a1
+hhh:mtlo $a2
+jalr $t1,$k0
+nop
+blez $a0,loop
+nop
+loop: j loop
+nop
+aaa: jr $t1
+nop
+bbb:bgez $a2,aaa
+nop

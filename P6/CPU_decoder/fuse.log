@@ -1,0 +1,78 @@
+Running: D:\XilinxNEW\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o D:/Computer_Organization/P6/CPU_decoder/tb_mips_isim_beh.exe -prj D:/Computer_Organization/P6/CPU_decoder/tb_mips_beh.prj work.tb_mips work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:/Computer_Organization/P6/CPU_decoder/decoder.v" into library work
+Analyzing Verilog file "D:/Computer_Organization/P6/CPU_decoder/STOP_controller.v" into library work
+Analyzing Verilog file "D:/Computer_Organization/P6/CPU_decoder/reg_pipeline.v" into library work
+Analyzing Verilog file "D:/Computer_Organization/P6/CPU_decoder/MUX_forward.v" into library work
+Analyzing Verilog file "D:/Computer_Organization/P6/CPU_decoder/MUX.v" into library work
+Analyzing Verilog file "D:/Computer_Organization/P6/CPU_decoder/M.v" into library work
+Analyzing Verilog file "D:/Computer_Organization/P6/CPU_decoder/FORWARD_controller.v" into library work
+Analyzing Verilog file "D:/Computer_Organization/P6/CPU_decoder/F.v" into library work
+Analyzing Verilog file "D:/Computer_Organization/P6/CPU_decoder/E.v" into library work
+Analyzing Verilog file "D:/Computer_Organization/P6/CPU_decoder/D.v" into library work
+Analyzing Verilog file "D:/Computer_Organization/P6/CPU_decoder/AT_controller.v" into library work
+Analyzing Verilog file "D:/Computer_Organization/P6/CPU_decoder/datapath.v" into library work
+Analyzing Verilog file "D:/Computer_Organization/P6/CPU_decoder/control.v" into library work
+Analyzing Verilog file "D:/Computer_Organization/P6/CPU_decoder/mips.v" into library work
+Analyzing Verilog file "D:/Computer_Organization/P6/CPU_decoder/tb_mips.v" into library work
+Analyzing Verilog file "D:/XilinxNEW/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "D:/Computer_Organization/P6/CPU_decoder/MUX.v" Line 31: Port RegWrite is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/Computer_Organization/P6/CPU_decoder/reg_pipeline.v" Line 32: Port RegWrite is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/Computer_Organization/P6/CPU_decoder/D.v" Line 107: Port RegWrite is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/Computer_Organization/P6/CPU_decoder/D.v" Line 69: Port RegWrite is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/Computer_Organization/P6/CPU_decoder/D.v" Line 86: Port RegWrite is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/Computer_Organization/P6/CPU_decoder/MUX.v" Line 49: Port RegWrite is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/Computer_Organization/P6/CPU_decoder/MUX.v" Line 60: Port RegWrite is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/Computer_Organization/P6/CPU_decoder/E.v" Line 122: Port RegWrite is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/Computer_Organization/P6/CPU_decoder/E.v" Line 39: Port RegWrite is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/Computer_Organization/P6/CPU_decoder/M.v" Line 31: Port RegWrite is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/Computer_Organization/P6/CPU_decoder/reg_pipeline.v" Line 139: Port MemWrite is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/Computer_Organization/P6/CPU_decoder/MUX.v" Line 74: Port RegWrite is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/Computer_Organization/P6/CPU_decoder/AT_controller.v" Line 135: Port RegWrite is not connected to this instance
+Completed static elaboration
+Compiling module decoder
+Compiling module MUX_PC
+Compiling module PC
+Compiling module ADD4
+Compiling module IM
+Compiling module regD
+Compiling module NPC
+Compiling module RF
+Compiling module EXT
+Compiling module MFCMP1D
+Compiling module MFCMP2D
+Compiling module CMP
+Compiling module regE
+Compiling module MFALUAE
+Compiling module MFALUBE
+Compiling module MUX_ALUA
+Compiling module MUX_ALUB
+Compiling module ALU
+Compiling module MD
+Compiling module regM
+Compiling module MFWDM
+Compiling module DM
+Compiling module regW
+Compiling module MUX_WD
+Compiling module datapath
+Compiling module AT_E
+Compiling module AT_M
+Compiling module AT_W
+Compiling module ATtotal
+Compiling module FORWARD_controller
+Compiling module STOP_control
+Compiling module STOP
+Compiling module control
+Compiling module mips
+Compiling module tb_mips
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 20 sub-compilation(s) to finish...
+Compiled 36 Verilog Units
+Built simulation executable D:/Computer_Organization/P6/CPU_decoder/tb_mips_isim_beh.exe
+Fuse Memory Usage: 33704 KB
+Fuse CPU Usage: 937 ms

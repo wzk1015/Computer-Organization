@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="CPU_decoder" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/mips D:|Computer_Organization|P5|CPU_decoder|mips.v/ctrl - control/attotal - ATtotal</ClosedNode>
+         <ClosedNode>/mips D:|Computer_Organization|P5|CPU_decoder|mips.v/ctrl - control/maintotal - MAINtotal</ClosedNode>
+         <ClosedNode>/mips D:|Computer_Organization|P5|CPU_decoder|mips.v/dp - datapath/alu - ALU</ClosedNode>
+         <ClosedNode>/mips D:|Computer_Organization|P5|CPU_decoder|mips.v/dp - datapath/ext - EXT</ClosedNode>
+         <ClosedNode>/mips D:|Computer_Organization|P5|CPU_decoder|mips.v/dp - datapath/mux_alu - MUX_ALU</ClosedNode>
+         <ClosedNode>/mips D:|Computer_Organization|P5|CPU_decoder|mips.v/dp - datapath/mux_pc - MUX_PC</ClosedNode>
+         <ClosedNode>/mips D:|Computer_Organization|P5|CPU_decoder|mips.v/dp - datapath/npc - NPC</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>RF_ - RF (D:/Computer_Organization/P6/CPU_decoder/D.v)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >14</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000002e1000000020000000000000000000000000200000064ffffffff000000810000000300000002000002e10000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>RF_ - RF (D:/Computer_Organization/P6/CPU_decoder/D.v)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000d2000000010000000100000000000000000000000064ffffffff000000810000000000000001000000d20000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000263000000040101000100000000000000000000000064ffffffff0000008100000000000000040000003d00000001000000000000002400000001000000000000007800000001000000000000018a0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>D:\Computer_Organization\P6\CPU_decoder\AT_controller.v</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>work</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000121000000010001000100000000000000000000000064ffffffff000000810000000000000001000001210000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Design Utilities</ClosedNode>
+         <ClosedNode>Implement Design</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000e3000000010000000100000000000000000000000064ffffffff000000810000000000000001000000e30000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <SourceProcessView>000000ff0000000000000002000000ff0000008901000000050100000002</SourceProcessView>
+   <CurrentView>Implementation</CurrentView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/control D:|Computer_Organization|P6|CPU_decoder|control.v</ClosedNode>
+         <ClosedNode>/datapath D:|Computer_Organization|P6|CPU_decoder|datapath.v</ClosedNode>
+         <ClosedNode>/mips D:|Computer_Organization|P5|CPU_decoder|mips.v</ClosedNode>
+         <ClosedNode>/tb_mips D:|Computer_Organization|P6|CPU_decoder|tb_mips.v/uut - mips/ctrl - control/attotal - ATtotal</ClosedNode>
+         <ClosedNode>/tb_mips D:|Computer_Organization|P6|CPU_decoder|tb_mips.v/uut - mips/dp - datapath/MD_ - MD</ClosedNode>
+         <ClosedNode>/tb_mips D:|Computer_Organization|P6|CPU_decoder|tb_mips.v/uut - mips/dp - datapath/MUX_ALUA_ - MUX_ALUA</ClosedNode>
+         <ClosedNode>/tb_mips D:|Computer_Organization|P6|CPU_decoder|tb_mips.v/uut - mips/dp - datapath/MUX_ALUB_ - MUX_ALUB</ClosedNode>
+         <ClosedNode>/tb_mips D:|Computer_Organization|P6|CPU_decoder|tb_mips.v/uut - mips/dp - datapath/alu - ALU</ClosedNode>
+         <ClosedNode>/tb_mips D:|Computer_Organization|P6|CPU_decoder|tb_mips.v/uut - mips/dp - datapath/dm - DM</ClosedNode>
+         <ClosedNode>/tb_mips D:|Computer_Organization|P6|CPU_decoder|tb_mips.v/uut - mips/dp - datapath/ext - EXT</ClosedNode>
+         <ClosedNode>/tb_mips D:|Computer_Organization|P6|CPU_decoder|tb_mips.v/uut - mips/dp - datapath/mux_wd - MUX_WD</ClosedNode>
+         <ClosedNode>/tb_mips D:|Computer_Organization|P6|CPU_decoder|tb_mips.v/uut - mips/dp - datapath/npc - NPC</ClosedNode>
+         <ClosedNode>/tb_mips D:|Computer_Organization|P6|CPU_decoder|tb_mips.v/uut - mips/dp - datapath/regw - regW</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>tb_mips (D:/Computer_Organization/P6/CPU_decoder/tb_mips.v)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >34</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001ef000000020000000000000000000000000200000064ffffffff000000810000000300000002000001ef0000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>tb_mips (D:/Computer_Organization/P6/CPU_decoder/tb_mips.v)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000e7000000010000000100000000000000000000000064ffffffff000000810000000000000001000000e70000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Simulate Behavioral Model</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001d9000000010000000100000000000000000000000064ffffffff000000810000000000000001000001d90000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Simulate Behavioral Model</CurrentItem>
+   </ItemView>
+</Project>

@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "D:/Computer_Organization/P6/CPU_decoder/mips.xst" -ofn "D:/Computer_Organization/P6/CPU_decoder/mips.syr" 
+xst -intstyle ise -ifn "D:/Computer_Organization/P6/CPU_decoder/mips.xst" -ofn "D:/Computer_Organization/P6/CPU_decoder/mips.syr" 

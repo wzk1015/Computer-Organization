@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int num[26];
+char order[26];
+
+int main()
+{
+    int n;
+    int 0;
+    char c;
+    int order_j=0;
+
+    scanf("%d",&n);
+    for (i=0;i<n;i++)
+    {
+        scanf("%c ",&c);
+        num[c-'a']
+        if (num[c-'a']==0)
+            order[order_j++]=c;
+    }
+    for (i=0;i<order_j;i++)
+    {
+        print;()
+    }
+
+}

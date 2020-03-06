@@ -1,0 +1,68 @@
+Running: D:\XilinxNEW\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o D:/Computer_Organization/P5/CPU/tb_mips_isim_beh.exe -prj D:/Computer_Organization/P5/CPU/tb_mips_beh.prj work.tb_mips work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:/Computer_Organization/P5/CPU/STOP_controller.v" into library work
+Analyzing Verilog file "D:/Computer_Organization/P5/CPU/reg_pipeline.v" into library work
+Analyzing Verilog file "D:/Computer_Organization/P5/CPU/MUX_forward.v" into library work
+Analyzing Verilog file "D:/Computer_Organization/P5/CPU/MUX.v" into library work
+Analyzing Verilog file "D:/Computer_Organization/P5/CPU/MAIN_controller.v" into library work
+Analyzing Verilog file "D:/Computer_Organization/P5/CPU/M.v" into library work
+Analyzing Verilog file "D:/Computer_Organization/P5/CPU/FORWARD_controller.v" into library work
+Analyzing Verilog file "D:/Computer_Organization/P5/CPU/F.v" into library work
+Analyzing Verilog file "D:/Computer_Organization/P5/CPU/E.v" into library work
+Analyzing Verilog file "D:/Computer_Organization/P5/CPU/D.v" into library work
+Analyzing Verilog file "D:/Computer_Organization/P5/CPU/AT_controller.v" into library work
+Analyzing Verilog file "D:/Computer_Organization/P5/CPU/datapath.v" into library work
+Analyzing Verilog file "D:/Computer_Organization/P5/CPU/control.v" into library work
+Analyzing Verilog file "D:/Computer_Organization/P5/CPU/mips.v" into library work
+Analyzing Verilog file "D:/Computer_Organization/P5/CPU/tb_mips.v" into library work
+Analyzing Verilog file "D:/XilinxNEW/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module MUX_PC
+Compiling module PC
+Compiling module ADD4
+Compiling module IM
+Compiling module regD
+Compiling module NPC
+Compiling module RF
+Compiling module EXT
+Compiling module MFCMP1D
+Compiling module MFCMP2D
+Compiling module CMP
+Compiling module regE
+Compiling module MFALUBE
+Compiling module MFALUAE
+Compiling module MUX_ALU
+Compiling module ALU
+Compiling module regM
+Compiling module MFWDM
+Compiling module DM
+Compiling module regW
+Compiling module MUX_WD
+Compiling module datapath
+Compiling module MAIN_D
+Compiling module MAIN_E
+Compiling module MAIN_M
+Compiling module MAIN_W
+Compiling module MAINtotal
+Compiling module FORWARD_controller
+Compiling module AT
+Compiling module AT_E
+Compiling module AT_M
+Compiling module AT_W
+Compiling module ATtotal
+Compiling module STOP_control
+Compiling module STOP
+Compiling module control
+Compiling module mips
+Compiling module tb_mips
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 24 sub-compilation(s) to finish...
+Compiled 39 Verilog Units
+Built simulation executable D:/Computer_Organization/P5/CPU/tb_mips_isim_beh.exe
+Fuse Memory Usage: 32048 KB
+Fuse CPU Usage: 921 ms

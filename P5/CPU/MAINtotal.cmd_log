@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/Computer_Organization/P5/CPU/MAINtotal.xst" -ofn "D:/Computer_Organization/P5/CPU/MAINtotal.syr" 
